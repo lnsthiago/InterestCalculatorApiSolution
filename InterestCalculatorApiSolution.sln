@@ -7,7 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateFinderAPI", "RateFinder
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateFinder", "RateFinder", "{919094BC-108E-4CEE-94C3-9F8A4894BF6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateFinderAPITest", "RateFinderAPITest\RateFinderAPITest.csproj", "{F6AEB09F-9776-447C-A060-E9900CBA93D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateFinderAPITest", "RateFinderAPITest\RateFinderAPITest.csproj", "{F6AEB09F-9776-447C-A060-E9900CBA93D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterestCalculator", "InterestCalculator", "{2DDD6F10-6B23-4490-AA47-AB725DB064F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterestCalculatorAPI", "InterestCalculatorAPI\InterestCalculatorAPI.csproj", "{51317B0E-9CBD-49D1-821C-D9FEDE66F533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterestCalculatorAPITest", "InterestCalculatorAPITest\InterestCalculatorAPITest.csproj", "{D03A4273-0602-4549-90CB-FB9FE39568A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{F6AEB09F-9776-447C-A060-E9900CBA93D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6AEB09F-9776-447C-A060-E9900CBA93D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6AEB09F-9776-447C-A060-E9900CBA93D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51317B0E-9CBD-49D1-821C-D9FEDE66F533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51317B0E-9CBD-49D1-821C-D9FEDE66F533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51317B0E-9CBD-49D1-821C-D9FEDE66F533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51317B0E-9CBD-49D1-821C-D9FEDE66F533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D03A4273-0602-4549-90CB-FB9FE39568A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D03A4273-0602-4549-90CB-FB9FE39568A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D03A4273-0602-4549-90CB-FB9FE39568A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D03A4273-0602-4549-90CB-FB9FE39568A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2680947A-B161-4C3A-B069-5FB8044F8D56} = {919094BC-108E-4CEE-94C3-9F8A4894BF6D}
 		{F6AEB09F-9776-447C-A060-E9900CBA93D7} = {919094BC-108E-4CEE-94C3-9F8A4894BF6D}
+		{51317B0E-9CBD-49D1-821C-D9FEDE66F533} = {2DDD6F10-6B23-4490-AA47-AB725DB064F4}
+		{D03A4273-0602-4549-90CB-FB9FE39568A1} = {2DDD6F10-6B23-4490-AA47-AB725DB064F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44F7A4D4-BB2F-4B47-B1AC-E0394F445319}

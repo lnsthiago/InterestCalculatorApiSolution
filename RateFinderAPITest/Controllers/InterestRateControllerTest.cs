@@ -13,7 +13,7 @@ namespace RateFinderAPITest.Controllers
         }
 
         [Fact]
-        public void Get_WhenCalled_ReturnsRate001()
+        public void ShouldReturnRateRate001()
         {
             // Act
             var resultRate = _interestRateController.Get();
